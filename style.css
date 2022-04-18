@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', 'Poppins', serif;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+}
+h2 {
+  color: #086db8;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.img-section {
+  width: 40%;
+}
+.form-section {
+  width: 60%;
+  padding: 40px;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+.form-row .form-control {
+  width: 48%;
+}
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row input[type='password'],
+.form-row select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.radio {
+  display: flex;
+  justify-content: space-between;
+}
+.radio div {
+  display: flex;
+  align-items: center;
+}
+.radio label {
+  margin-left: 10px;
+}
+.form-control textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-control button {
+  cursor: pointer;
+  background-color: #3e53c4;
+  border: 1px solid #086db8;
+  border-radius: 10px 0;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 40%;
+}
+.btn {
+  display: flex;
+  justify-content: end;
+}
+.image-section {
+  background: url(https://i.postimg.cc/nrrvPNr5/Group-7.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+}
+.image-section {
+  padding: 30px;
+}
+h1 {
+  color: #ffff;
+  top: 8px;
+  left: 16px;
+  text-align: right;
+}
+h5 {
+  color: #ffff;
+  margin-top: 550px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
